@@ -3,7 +3,7 @@ import Navigation from './navigation/Navigation'
 import FeedContainer from './feed/FeedContainer';
 import {Grid } from '@mui/material';
 import {Route, Switch, withRouter} from "react-router-dom"
-import React, { Suspense } from 'react';
+import React from 'react';
 import ProfileContainer from './profile/ProfileContainer';
 import SettingsContainer from './settings/SettingsContainer';
 import Login from './login/Login';
